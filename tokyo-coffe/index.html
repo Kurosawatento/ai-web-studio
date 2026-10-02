@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TOKYO COFFEE</title>
+	<meta name="description" content="TOKYO COFFEEのこだわりのコーヒーとスイーツ。落ち着いた空間で、東京の暮らしに余白を。">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo">TOKYO COFFEE</div>
+
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#access">Access</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="hero-inner">
+				<div class="hero-content">
+					<p class="eyebrow">COFFEE &amp; MUSIC &amp; PEOPLE</p>
+					<h1 class="hero-title" aria-label="TOKYO COFFEE">
+						<span>TOKYO</span>
+						<span>COFFEE</span>
+					</h1>
+					<p class="hero-text">東京で、少し特別なコーヒータイムを。</p>
+					<a href="#menu" class="button">MENUを見る</a>
+				</div>
+
+				<div class="hero-visual" aria-label="TOKYO COFFEEの店内の雰囲気">
+					<div class="hero-photo-wrap">
+						<img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="落ち着いたおしゃれなカフェの外観">
+					</div>
+					<div class="hero-badge">Daily coffee / quiet moment</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="about">
+			<div class="about-copy reveal">
+				<p class="section-label reveal">ABOUT US</p>
+				<h2 class="reveal">東京の日常に、<br>一杯の余白を。</h2>
+
+				<p class="reveal">
+					TOKYO COFFEEは、東京の街で暮らす人たちが
+					少しだけ日常から離れてリラックスできる
+					コーヒーショップです。<br>
+					落ち着いた音楽と温かい空気が、静かな時間をつくります。
+				</p>
+			</div>
+
+			<div class="about-gallery reveal" aria-label="カフェの外観と店内の写真">
+				<figure class="gallery-item tall">
+					<img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80" alt="TOKYO COFFEEの外観">
+				</figure>
+				<figure class="gallery-item">
+					<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="TOKYO COFFEEの店内">
+				</figure>
+				<figure class="gallery-item">
+					<img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80" alt="落ち着いたカフェの空間">
+				</figure>
+			</div>
+		</section>
+
+		<section id="menu" class="menu">
+			<p class="section-label reveal">OUR MENU</p>
+			<h2 class="reveal">MENU</h2>
+
+			<div class="menu-groups">
+				<div class="menu-group reveal">
+					<h3 class="reveal">COFFEE</h3>
+					<div class="menu-list">
+						<article class="menu-item reveal" tabindex="0" role="button" data-name="Americano" data-image="https://images.unsplash.com/photo-1498804103079-a4f2d7e7e5a6?auto=format&fit=crop&w=900&q=80" data-description="深く香るエスプレッソに、すっと続く余韻を。自家焙煎の香りと、やわらかな酸味が口の中に広がります。" data-price="¥500" aria-label="Americano の詳細を見る">
+							<div class="menu-image">
+								<img src="https://images.unsplash.com/photo-1498804103079-a4f2d7e7e5a6?auto=format&fit=crop&w=900&q=80" alt="Americano">
+							</div>
+							<div class="menu-body">
+								<h4>Americano</h4>
+								<p>深く香るエスプレッソに、すっと続く余韻を。</p>
+								<div class="menu-meta">
+									<span class="menu-name">アメリカーノ</span>
+									<span class="price">¥500</span>
+								</div>
+							</div>
+						</article>
+
+						<article class="menu-item reveal" tabindex="0" role="button" data-name="Cafe Latte" data-image="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" data-description="ミルクの甘みとコーヒーの香りがやさしく調和します。なめらかな泡と、ほっとする余韻が魅力です。" data-price="¥600" aria-label="Cafe Latte の詳細を見る">
+							<div class="menu-image">
+								<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Cafe Latte">
+							</div>
+							<div class="menu-body">
+								<h4>Cafe Latte</h4>
+								<p>ミルクの甘みとコーヒーの香りがやさしく調和します。</p>
+								<div class="menu-meta">
+									<span class="menu-name">カフェラテ</span>
+									<span class="price">¥600</span>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<div class="menu-group reveal">
+					<h3 class="reveal">SWEETS</h3>
+					<div class="menu-list">
+						<article class="menu-item reveal" tabindex="0" role="button" data-name="Cheesecake" data-image="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" data-description="なめらかな口当たりと、ほのかな酸味が魅力です。上品な甘さで、コーヒーとの相性も抜群です。" data-price="¥650" aria-label="Cheesecake の詳細を見る">
+							<div class="menu-image">
+								<img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" alt="Cheesecake">
+							</div>
+							<div class="menu-body">
+								<h4>Cheesecake</h4>
+								<p>なめらかな口当たりと、ほのかな酸味が魅力です。</p>
+								<div class="menu-meta">
+									<span class="menu-name">自家製チーズケーキ</span>
+									<span class="price">¥650</span>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="access" class="access">
+			<p class="section-label reveal">ACCESS</p>
+			<h2 class="reveal">ACCESS</h2>
+
+			<p class="reveal">
+				東京都渋谷区<br>
+				渋谷駅から徒歩5分
+			</p>
+
+			<p class="reveal">
+				OPEN 10:00 - 21:00
+			</p>
+
+			<div class="access-actions reveal">
+				<a href="https://www.instagram.com/tokyo_coffee/" class="instagram-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+			</div>
+		</section>
+	</main>
+
+	<div class="modal" id="productModal" aria-hidden="true">
+		<div class="modal-overlay" data-close="true"></div>
+		<div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+			<button class="modal-close" type="button" aria-label="閉じる">×</button>
+			<div class="modal-image">
+				<img src="" alt="商品画像">
+			</div>
+			<div class="modal-body">
+				<p class="modal-label">MENU DETAIL</p>
+				<h3 id="modalTitle">商品名</h3>
+				<p id="modalDescription">商品説明</p>
+				<div class="modal-price">価格</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; 2026 TOKYO COFFEE</p>
+	</footer>
+</body>
+</html>
+
